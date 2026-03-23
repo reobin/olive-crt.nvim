@@ -11,6 +11,10 @@ The original four source tones are used as the backbone for backgrounds and defa
 
 From there, `olive-lcd.nvim` adds restrained earthy accents so code stays clear across syntax groups, diagnostics, git changes, search, and modern Neovim UI.
 
+## Preview
+
+![olive-lcd.nvim dark and light theme preview](assets/olive-lcd-preview.png)
+
 ## Features
 
 - dark and light variants driven by `:set background=`
