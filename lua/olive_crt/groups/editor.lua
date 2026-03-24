@@ -2,15 +2,15 @@ local M = {}
 
 function M.get(c, opts)
   local bg = opts.transparent and c.none or c.bg
-  local float_bg = opts.transparent and c.none or c.bg_float
+  local float_bg = bg
 
   return {
     Normal = { fg = c.fg, bg = bg },
     NormalNC = { fg = c.fg, bg = bg },
-    NormalFloat = { fg = c.fg, bg = float_bg },
-    FloatBorder = { fg = c.border, bg = float_bg },
-    FloatTitle = { fg = c.olive_bright, bg = float_bg, bold = true },
-    FloatFooter = { fg = c.muted, bg = float_bg },
+    NormalFloat = { fg = c.fg, bg = bg },
+    FloatBorder = { fg = c.border, bg = bg },
+    FloatTitle = { fg = c.olive_bright, bg = bg, bold = true },
+    FloatFooter = { fg = c.muted, bg = bg },
     ColorColumn = { bg = c.bg_alt },
     Conceal = { fg = c.subtle },
     Cursor = { fg = c.bg, bg = c.cursor },

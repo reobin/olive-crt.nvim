@@ -4,9 +4,9 @@ function M.get(c, opts)
   local groups = {}
 
   if opts.plugins.telescope then
-    groups.TelescopeNormal = { fg = c.fg, bg = c.bg_float }
-    groups.TelescopeBorder = { fg = c.border, bg = c.bg_float }
-    groups.TelescopeTitle = { fg = c.olive_bright, bg = c.bg_float, bold = true }
+    groups.TelescopeNormal = { fg = c.fg, bg = c.bg }
+    groups.TelescopeBorder = { fg = c.border, bg = c.bg }
+    groups.TelescopeTitle = { fg = c.olive_bright, bg = c.bg, bold = true }
     groups.TelescopePromptTitle = { fg = c.bg, bg = c.olive_bright, bold = true }
     groups.TelescopeSelection = { bg = c.selection }
     groups.TelescopeMatching = { fg = c.amber, bold = true }
