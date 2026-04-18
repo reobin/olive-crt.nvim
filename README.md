@@ -89,6 +89,7 @@ The repo ships matching extras for:
 - alacritty: [dark](extras/alacritty/olive-crt-dark.toml) / [light](extras/alacritty/olive-crt-light.toml)
 - tmux: [dark](extras/tmux/olive-crt-dark.conf) / [light](extras/tmux/olive-crt-light.conf)
 - iTerm2: [dark](extras/iterm2/olive-crt-dark.itermcolors) / [light](extras/iterm2/olive-crt-light.itermcolors)
+- opencode: [olive-crt](extras/opencode/olive-crt.json) (single file with both flavors; auto-switches with terminal background)
 
 Using Omarchy? Check out the matching Omarchy themes:
 
