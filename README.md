@@ -93,5 +93,5 @@ The repo ships matching extras for:
 
 Using Omarchy? Check out the matching Omarchy themes:
 
-- [omarchy-olive-crt-dark-theme](https://github.com/reobin/omarchy-olive-crt-dark-theme)
-- [omarchy-olive-crt-light-theme](https://github.com/reobin/omarchy-olive-crt-light-theme)
+- [omarchy-olive-crt-dark-theme](https://github.com/vimcolorschemes/omarchy-olive-crt-dark-theme)
+- [omarchy-olive-crt-light-theme](https://github.com/vimcolorschemes/omarchy-olive-crt-light-theme)
